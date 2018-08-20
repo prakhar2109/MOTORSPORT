@@ -32,7 +32,7 @@ font-family: 'Ubuntu', sans-serif;*/
   height: auto;
   width: 280px;
   animation-name:run;
-  animation-duration: 2200ms; 
+  animation-duration: 2200ms;
 }
 @keyframes run{
   from{
@@ -59,7 +59,7 @@ input {
     opacity: 0;
   }
   .menu_main{
-    background:#008080 ;      
+    background:#008080 ;
     height: 80px;
     width: 100vw;
     overflow: hidden;
@@ -131,12 +131,12 @@ input {
     bottom: 0;
     transform-origin: bottom left;
   }
-  
+
   input:focus + label .burger,
   label:hover .burger {
     opacity: .75;
   }
-  
+
   nav {
     position: fixed;
     top: 0;
@@ -200,7 +200,7 @@ input {
   nav a:hover, nav a:focus {
     color: rgba(247, 26,38,1);
   }
-  
+
   main {
     overflow: hidden;
   }
@@ -209,7 +209,7 @@ input {
     will-change: transform, filter;
     transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
   }
-  
+
   [id="navcheck"]:checked + label::before {
     opacity: 1;
     pointer-events: auto;
@@ -240,10 +240,10 @@ input {
     transform-origin: left center;
     -webkit-filter: blur(2px);
     filter: blur(2px);
-    
+
   }
-  
-  
+
+
   .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
@@ -259,7 +259,7 @@ input {
     overflow-x: hidden;
   }
 
-  
+
   main {
     background: #3498db;
     padding: 5% 0;
@@ -310,8 +310,8 @@ input {
     height: 10% !important;
   }
   /*-------------------------------- * logo* -------------------------------------------*/
-  .logo img
-  { 
+  .logo
+  {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -320,6 +320,10 @@ input {
       left: 45%;
       width: 180px;
       z-index: 1;
+  }
+  .logo img{
+    height: auto;
+    width: 100%;
   }
    /* upadte logo */
    a.updates {
@@ -436,8 +440,8 @@ clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     box-shadow: 20px 20px 20px  #000;
     transform: translate3d(4px,4px,4px);
 }
-  
-  
+
+
   .snip1543 *,
   .snip1543 *:before,
   .snip1543 *:after {
@@ -446,7 +450,7 @@ clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     -webkit-transition: all 0.45s ease;
     transition: all 0.45s ease;
   }
-  
+
   .snip1543 img {
     backface-visibility: hidden;
     max-width: 100%;
@@ -454,7 +458,7 @@ clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     overflow: hidden;
     vertical-align: top;
   }
-  
+
   .snip1543:before,
   .snip1543:after {
     position: absolute;
@@ -468,17 +472,17 @@ clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     -webkit-transition: all 0.45s ease;
     transition: all 0.45s ease;
   }
-  
+
   .snip1543:before {
     -webkit-transform: skew(30deg) translateX(-80%);
     transform: skew(30deg) translateX(-80%);
   }
-  
+
   .snip1543:after {
     -webkit-transform: skew(-30deg) translateX(-70%);
     transform: skew(-30deg) translateX(-70%);
   }
-  
+
   .snip1543 figcaption {
     position: absolute;
     top: 0px;
@@ -490,7 +494,7 @@ clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     bottom: 0;
     padding: 25% 40% 25px 20px;
   }
-  
+
   .snip1543 figcaption:before,
   .snip1543 figcaption:after {
     position: absolute;
@@ -505,24 +509,24 @@ clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     opacity: 0.5;
     z-index: -1;
   }
-  
+
   .snip1543 figcaption:before {
     -webkit-transform: skew(30deg) translateX(-100%);
     transform: skew(30deg) translateX(-100%);
   }
-  
+
   .snip1543 figcaption:after {
     -webkit-transform: skew(-30deg) translateX(-90%);
     transform: skew(-30deg) translateX(-90%);
   }
-  
+
   .snip1543 h3,
   .snip1543 p {
     margin: 0;
     opacity: 0;
     letter-spacing: 1px;
   }
-  
+
   .snip1543 h3 {
     font-family: 'Teko', sans-serif;
     font-size: 36px;
@@ -530,11 +534,11 @@ clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     line-height: 1em;
     text-transform: uppercase;
   }
-  
+
   .snip1543 p {
     font-size: 0.9em;
   }
-  
+
   .snip1543 a {
     position: absolute;
     top: 0;
@@ -543,7 +547,7 @@ clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     right: 0;
     z-index: 1;
   }
-  
+
   .snip1543:hover h3,
   .snip1543.hover h3,
   .snip1543:hover p,
@@ -554,7 +558,7 @@ clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     -webkit-transition-delay: 0.2s;
     transition-delay: 0.2s;
   }
-  
+
   .snip1543:hover:before,
   .snip1543.hover:before {
     -webkit-transform: skew(30deg) translateX(-20%);
@@ -562,13 +566,13 @@ clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     -webkit-transition-delay: 0.05s;
     transition-delay: 0.05s;
   }
-  
+
   .snip1543:hover:after,
   .snip1543.hover:after {
     -webkit-transform: skew(-30deg) translateX(-10%);
     transform: skew(-30deg) translateX(-10%);
   }
-  
+
   .snip1543:hover figcaption:before,
   .snip1543.hover figcaption:before {
     -webkit-transform: skew(30deg) translateX(-40%);
@@ -576,7 +580,7 @@ clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     -webkit-transition-delay: 0.15s;
     transition-delay: 0.15s;
   }
-  
+
   .snip1543:hover figcaption:after,
   .snip1543.hover figcaption:after {
     -webkit-transform: skew(-30deg) translateX(-30%);
@@ -584,8 +588,8 @@ clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     -webkit-transition-delay: 0.1s;
     transition-delay: 0.1s;
   }
-  
-  
+
+
   .project{
     text-align: center;
   }
@@ -599,7 +603,7 @@ clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
       margin-top: 20vh;
   }
   .team_head{
-      margin-left:10%; 
+      margin-left:10%;
   }
   .row.team_descriptionwrapper{
       margin-top: 30vh;
@@ -624,11 +628,11 @@ clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     height: auto;
     width: 250px;
     background: white;
-    padding: 15px;    
+    padding: 15px;
     border-radius:2%;
     margin: 5px 10px;
-    
-    transition: all 200ms ease-out; 
+
+    transition: all 200ms ease-out;
   }
 img.profile_pic {
     border-radius: 50%;
@@ -647,7 +651,7 @@ img.profile_pic {
 
 .profile .social{
     display:inline-flex ;
-    margin-top:10px; 
+    margin-top:10px;
     background: #fff;
 
 }
@@ -658,7 +662,7 @@ img.profile_pic {
     text-decoration: none;
     padding:5px 15px;
     font-size: 24px;
-    border-radius:50%; 
+    border-radius:50%;
     color: #008080;
     display: inline;
 }
@@ -666,7 +670,7 @@ img.profile_pic {
   transition: all 200ms ease-in;
 }
 .t1{
-  padding-left: 50px; 
+  padding-left: 50px;
 }
 .t2{
   padding-right: 50px;
@@ -684,7 +688,7 @@ img.profile_pic {
   padding: 0% 5%;
 }
 .faculty_speak p{
-  font-size:20px; 
+  font-size:20px;
 }
 .over a h3{
   padding-top: 10px;
@@ -762,13 +766,13 @@ img.profile_pic {
 .footer_content p{
   color: #fff;
   padding: 5px 0 0 0;
-  font-size:16px; 
+  font-size:16px;
 }
 .footer_content p a{
   text-decoration: none;
   color: #fff;
   padding: 5px 0 0 0;
-  font-size:16px; 
+  font-size:16px;
 }
 .footer_content p a:hover{
   color: #000;
@@ -1036,7 +1040,7 @@ img.profile_pic {
 }
 
   /*-------------------------------- * counter section* -------------------------------------------*/
-  
+
   #counter1{
     height: 260px;
     background-color: #008080 ;
