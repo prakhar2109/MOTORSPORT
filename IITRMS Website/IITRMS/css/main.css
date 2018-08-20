@@ -160,7 +160,7 @@ input {
     left: 0;
     z-index: -1;
     width: 25em;
-    background: #ff4500;
+    background: rgba(247, 26,38,0.9);
     content: '';
     transform: skewX(15deg) translateX(-100%);
     transform-origin: bottom left;
@@ -180,6 +180,7 @@ input {
   }
   nav a:nth-child(1) {
     transition-delay: 0s, 100ms;
+    padding-top: 3em;
   }
   nav a:nth-child(2) {
     transition-delay: 0s, 150ms;
@@ -197,7 +198,7 @@ input {
     transition-delay: 0s, 350ms;
   }
   nav a:hover, nav a:focus {
-    color: black;
+    color: rgba(247, 26,38,1);
   }
   
   main {
@@ -367,7 +368,7 @@ input {
 .caption1{
   position: absolute;
   margin-bottom: 40px;
-  background: rgba(255, 69,0,.9);
+  background: rgba(237, 37,4,0.7);
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
   border-radius: 5px;
@@ -384,7 +385,7 @@ clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
 .about_us{
-    margin-top: 20vh;
+    margin-top: 4vh;
     padding: 20px;
    margin-bottom: 65vh;
 }
@@ -395,6 +396,7 @@ clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 .aboutus_heading h1{
   font-size: 10vmin;
   color: #ff4500;
+  text-shadow: 3px 8px 15px grey;
 }
 .aboutus_text{
     float: right;
@@ -1024,7 +1026,7 @@ img.profile_pic {
   position: absolute;
   display: block;
   width: 236%;
-  background: #ff4500;
+  background: rgba(247, 26,38,0.9);
   top: -28px;
   left: -98%;
   height: 178%;
@@ -1146,7 +1148,7 @@ section.slider{
     display: block;
     width: 236%;
     right:-116%;
-    background: #ff4500;
+    background: rgba(247, 26,38,0.9);
     top: -28px;
     height: 168%;
     z-index: -1;
@@ -1154,7 +1156,7 @@ section.slider{
     transform-origin: bottom;
 }
 .sponsor-ribbon{
-  background-color: #ff4500;
+  background: rgba(247, 26,38,0.9);
   padding: 10px 20px 10px 0px;
   width: 100%;
   color: #fff;
@@ -1210,8 +1212,8 @@ clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
   }
   .aboutus_heading {
     width: 100vw;
-    padding-top: 5vh;
-    padding-bottom: 2vh;
+    padding-top: 0vh;
+    padding-bottom: 6vh;
 }
 .snip1543 img {
   max-width: 100%;
