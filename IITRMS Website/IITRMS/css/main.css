@@ -198,7 +198,7 @@ input {
     transition-delay: 0s, 350ms;
   }
   nav a:hover, nav a:focus {
-    color: rgba(247, 26,38,1);
+    color: rgba(247, 247,247,1);
   }
 
   main {
@@ -351,6 +351,13 @@ input {
     position: absolute;
     padding: 50px;
   }
+  .aboutHeading {
+    font-size: 2.5vw;
+    font-weight: 900;
+    padding-left: 3.5vw;
+    padding-top: 5vh;
+        color: #333;
+}
   .about-text{
     background: rgb(196, 47, 70);
     color: #fff;
@@ -454,7 +461,7 @@ clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
   .snip1543 img {
     backface-visibility: hidden;
     max-width: 100%;
-    height: 400px;
+    height: 320px;
     overflow: hidden;
     vertical-align: top;
   }
@@ -492,7 +499,7 @@ clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     right: 0px;
     z-index: 1;
     bottom: 0;
-    padding: 25% 40% 25px 20px;
+    padding: 18% 40% 25px 20px;
   }
 
   .snip1543 figcaption:before,
@@ -733,7 +740,7 @@ img.profile_pic {
   filter: grayscale(100%);
 }
 .sp1{
-  padding-top: 2vh;
+  padding-top: 0vh;
 }
 .sp2,.sp3,.sp4{
   padding-top: 12vh;
@@ -1262,3 +1269,31 @@ clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 display: none;
   }
 }
+.new_old_sponsors{
+        margin-left: 8%;
+        list-style-type: none;
+    }
+    .new_old_sponsors li{
+        padding-left: 2%;
+        display: inline-block;
+    }
+.new-tab{
+        font-size: 1.1em;
+        border:none;
+        font-weight: 300;
+        color:#fff;
+        padding: 5px 25px;
+        border-radius: 5px;
+        background-color: #000;
+    }
+    .old-tab{
+        font-size: 1.1em;
+        border:none;
+        font-weight: 300;
+        color:#666;
+        padding: 5px 25px;
+        border-radius: 5px;
+        background-color: #fff;
+        display: inline;
+    }
+
